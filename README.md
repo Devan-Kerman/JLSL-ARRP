@@ -1,5 +1,9 @@
-JLSL
+JLSL-ARRP
 ====
+
+// ARRP start
+repurposes JLSL to be used with ARRP
+// ARRP end
 
 Bored of programming your shaders with GLSL, where you're really prompt to make tons of mistakes?
 
