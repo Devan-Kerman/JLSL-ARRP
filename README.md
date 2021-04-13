@@ -3,6 +3,19 @@ JLSL-ARRP
 
 // ARRP start\
 repurposes JLSL to be used with ARRP\
+```groovy
+repositories {
+    maven {
+        url 'https://storage.googleapis.com/devan-maven/'
+    }
+}
+
+dependencies {
+    ...
+    modImplementation 'net.devtech:JLSL-ARRP:0.0.1'
+}
+```
+
 ```java
 JLSL_ARRP.addShader(runtimeResourcePackInstance, new Identifier("mymod", "myfragmentshader.frag", MyFragmentShader.class));
 ```
