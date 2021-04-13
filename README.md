@@ -3,7 +3,11 @@ JLSL-ARRP
 
 // ARRP start\
 repurposes JLSL to be used with ARRP\
-// ARRP end\
+```java
+JLSL_ARRP.addShader(runtimeResourcePackInstance, new Identifier("mymod", "myfragmentshader.frag", MyFragmentShader.class));
+```
+
+// ARRP end
 
 Bored of programming your shaders with GLSL, where you're really prompt to make tons of mistakes?
 

@@ -15,8 +15,6 @@ repositories {
     maven {url 'https://raw.githubusercontent.com/Devan-Kerman/Devan-Repo/master/'}
 }
 
-
-
 dependencies {
     //to change the versions see the gradle.properties file
     minecraft "com.mojang:minecraft:${project.minecraft_version}"
