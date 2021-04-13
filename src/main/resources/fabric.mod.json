@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "jlsl-arrp",
+  "version": "${version}",
+  "name": "JLSL-ARRP",
+  "description": "ARRP-JLSL adapter",
+  "authors": [
+    "HalfOf2",
+    "Xavier Niochaut"
+  ],
+  "license": "MIT",
+  "icon": "assets/jlsl-arrp/icon.png",
+  "environment": "*",
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
